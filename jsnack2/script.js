@@ -11,7 +11,6 @@ for (let i = 0; i <= 5; i++) {
     if (!isNaN(firstnumb) && firstnumb % 2 !== 0) {
 
         numberlist.push(firstnumb);
-
     }
 
     console.log(numberlist)
