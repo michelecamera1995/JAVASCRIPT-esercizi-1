@@ -15,7 +15,9 @@ for (let i = 0; i < list.length; i++) {
         console.log("You can join!")
 
     } else {
+
         console.log("You can't join!")
+
     }
 }
 
