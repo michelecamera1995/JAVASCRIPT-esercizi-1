@@ -2,11 +2,11 @@ console.log("JS-OK")
 
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-const list = ['michele']
+const list = ['michele', 'luca', 'silvio']
 
 const username = prompt("inserisci il nome")
 
-for (let i = 0; i < list.length; i++) {
+for (let i = 0; i <= list.length; i++) {
 
     const listparty = list[i];
 
