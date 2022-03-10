@@ -4,7 +4,7 @@ console.log("JS-OK")
 
 const validNumbersArray = [];
 
-while (validNumbersArray < 6) {
+while (validNumbersArray <= 6) {
 
     const firstnumb = parseInt(prompt('Insert a number!'));
 
@@ -13,6 +13,8 @@ while (validNumbersArray < 6) {
         validNumbersArray.push(firstnumb);
 
         console.log(validNumbersArray)
+
+        const fullist = true;
     }
 
 }
