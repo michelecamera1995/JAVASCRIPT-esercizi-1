@@ -4,8 +4,13 @@ console.log("JS-OK")
 
 const numberlist = [];
 for (let i = 0; i < 6; i++) {
-    const firstnumb = parseInt(prompt('Insert a number!'));
-    if (!isNaN(firstnumb) && firstnumb % 2 !== 0) {
+    let firstnumb
+
+    while (isNaN(firstnumb)) {
+        firstnumb = parseInt(prompt('Insert a number!'));
+    }
+
+    if (firstnumb % 2 !== 0) {
         numberlist.push(firstnumb);
     }
 }
